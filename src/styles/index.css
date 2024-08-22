@@ -1,0 +1,30 @@
+@import "./tailwind.css";
+@import url("https://fonts.googleapis.com/css2?family=Jeju+Hallasan&display=swap");
+@font-face {
+  font-family: "JejuHallasan";
+  src: url("/path-to-font/JejuHallasan.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+body.dark-mode {
+  background-color: #122b3e;
+  color: white;
+}
+/* Add these styles to properly align the search input */
+.search-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 320px; /* Set a maximum width for larger screens */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
