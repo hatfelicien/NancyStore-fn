@@ -53,7 +53,7 @@ const Header: React.FC = () => {
       {/* Top Section: Logo and Contact Info */}
       <div className="flex flex-col md:flex-row justify-between items-center p-4 mx-5 space-y-4 md:space-y-0">
         <div className="flex items-center space-x-8">
-          <h1 className="text-2xl font-bold">Mom's Keepsakes</h1>
+          <h1 className="text-2xl font-bold">Nancy's Creative Creations</h1>
         </div>
 
         {/* Contact Info */}
